@@ -25,12 +25,12 @@
 
     <distributionManagement>
         <snapshotRepository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+            <id>admin</id>
+            <url>http://13.235.74.40:8081/repository/abhisnapshot/</url>
         </snapshotRepository>
         <repository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
+            <id>admkin</id>
+            <url>http://13.235.74.40:8081/repository/abhirelease/</url>
         </repository>
     </distributionManagement>
 
